@@ -245,18 +245,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Mailer.cs" />
-    <Compile Include="Helpers\Onlines.cs" />
-    <Compile Include="Migrations\201602211947480_onserver.cs" />
-    <Compile Include="Migrations\201602211947480_onserver.Designer.cs">
-      <DependentUpon>201602211947480_onserver.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201602292300063_contactus.cs" />
-    <Compile Include="Migrations\201602292300063_contactus.Designer.cs">
-      <DependentUpon>201602292300063_contactus.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201603010013067_onlneusers.cs" />
-    <Compile Include="Migrations\201603010013067_onlneusers.Designer.cs">
-      <DependentUpon>201603010013067_onlneusers.cs</DependentUpon>
+    <Compile Include="Helpers\OnlineUser.cs" />
+    <Compile Include="Migrations\201603010548168_updated.cs" />
+    <Compile Include="Migrations\201603010548168_updated.Designer.cs">
+      <DependentUpon>201603010548168_updated.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -587,14 +579,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201602211947480_onserver.resx">
-      <DependentUpon>201602211947480_onserver.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201602292300063_contactus.resx">
-      <DependentUpon>201602292300063_contactus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201603010013067_onlneusers.resx">
-      <DependentUpon>201603010013067_onlneusers.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201603010548168_updated.resx">
+      <DependentUpon>201603010548168_updated.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.ar.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
